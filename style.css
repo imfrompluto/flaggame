@@ -1,44 +1,91 @@
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Karma', serif;
+font-family: 'Raleway', sans-serif; */
 
-*{
-    background-color: rgb(188, 255, 255);
+body{
+    background-color: rgb(190, 232, 248);
 }
 
-h3{
-    color: rgb(0, 30, 131);
-    font-family: 'Montserrat', sans-serif;
+.country{
+
+    height: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    box-shadow: rgb(190, 232, 248) 0 0 30px ;
+}
+
+
+form{
+    background-color: rgb(255, 255, 255);
+    /* width: 50px; */
+    padding: 30px;
+    padding-bottom: 46px;
+    width: 500px;
     text-align: center;
-    font-size: larger;
-    
+    border-radius: 36px ;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0;
+    margin-top: 40px;
+    transition: .5s;
 }
 
 button{
-    color: rgb(117, 188, 188);
-    background-color: rgb(203, 238, 226);
-    border: rgb(117, 188, 188) 1px solid;
-    text-align: center;
-    margin: auto;
-    border-radius: 3px;
+    margin: 0 2px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: black 2px solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    height: 40px;
+    width: calc(40% - 4px);
+    margin-bottom: 4px;
 }
 
-#panama{
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 60px;
+h1{
+    font-family: 'Karma', serif;
+    text-align: center;
+    font-size: 30px;
 }
 
-.options{
-    color: rgb(123, 189, 252);
-    background-color: rgb(179, 66, 66);
-    border: rgb(123, 189, 252) 1px solid;
-    /* width: 7%;
-    margin-left: 46.5%;
-    margin-right: 46.5%; */
-    margin: 8px;
-    display: inline-block;
+h3{
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 200;
+    color: grey;
+}
+
+#settings{
+    opacity: 0;
+    display: none;
+}
+
+#settingbutton{
+    font-family: 'Karma', serif;
+    color: rgb(100, 103, 191);
+    background-color: rgb(158, 224, 240);
+    font-size: 20px;
+    font-weight: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 6px;
+    padding-left: 6px;
+    text-decoration: none;
+    border: solid 3px rgb(100, 103, 191);
+    border-radius: 6px;
 }
